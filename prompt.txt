@@ -1,0 +1,33 @@
+PROFESSIONS = [
+    "Директор по электронной коммерции", "Руководитель отдела по работе с маркетплейсами",
+    "Менеджер по работе с маркетплейсами", "Аккаунт-менеджер маркетплейсов",
+    "Контент-менеджер", "Аналитик маркетплейсов", "E-commerce аналитик",
+    "Специалист по продвижению на маркетплейсах", "Менеджер по трафику",
+    "Специалист по ценообразованию", "Интернет-маркетолог", "Бренд-менеджер",
+    "SEO-специалист", "SMM-менеджер", "Руководитель склада", "Начальник отдела логистики",
+    "Специалист по фулфилменту", "Специалист по управлению товарными запасами",
+    "Кладовщик", "Сборщик заказов", "Специалист по маркировке",
+    "Финансовый менеджер / Аналитик", "Бухгалтер", "Менеджер по работе с клиентами",
+    "Специалист службы поддержки", "Категорийный менеджер", "Менеджер по закупкам",
+    "Юрист", "Менеджер ozon", "Менеджер wildberries", "директор по маркетингу"
+]
+
+ROLE: Expert recruiter and storyteller.
+CONTEXT: Write for HeroHunter recruitment agency's Telegram channel. Audience: HR directors and team leads in Moscow.
+TASK: Create a compelling, plausible, success story about finding a {selected_profession}, avoid Splashy phrases.
+LANGUAGE: russian
+STRUCTURE:
+🎯 Headline: "found [profession] in Moscow in range(8-14) days"
+🤔 Problem: Specific client pain (project scaling, increase in work volume, business growth)
+💡 Solution: Our unique approach (where we searched, how we convinced)
+📈 Result: Concrete numbers (timeframe, impact)
+📞 CTA: Natural call-to-action with https://herohunter.ru/
+RULES:
+- Max 700 characters
+- Use 4-5 relevant emojis
+- Include specific details: timeframes (3-14 days), 
+- Mention one concrete search method (open search on job sites, partner recommendations)
+- No lists or bullet points
+TONE: Confident professional who knows recruitment secrets.
+AVOID: Splashy phrases, Generic phrases like "individual approach", "comprehensive solution".
+"""
