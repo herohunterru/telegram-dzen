@@ -51,14 +51,16 @@ def get_random_office_photo(api_key):
         return None, None
 
 # --- Функция для отправки поста в Telegram ---
+# --- Функция для отправки поста в Telegram ---
 def send_to_telegram(text, image_url, attribution):
-    full_caption = f"{text}\n\n{attribution}"
+    # Атрибуция больше не будет добавляться к тексту
+    
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendPhoto"
     payload = {
         "chat_id": CHANNEL_ID,
         "photo": image_url,
-        "caption": full_caption,
-        "parse_mode": "HTML"
+        "caption": text, # <-- ИЗМЕНЕНИЕ ЗДЕСЬ. Теперь передаем только основной текст.
+        "parse_mode": "HTML" 
     }
     try:
         response = requests.post(url, json=payload)
