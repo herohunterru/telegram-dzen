@@ -24,7 +24,6 @@ STRUCTURE:
  CTA: Natural call-to-action with https://herohunter.ru/
 RULES:
 - Max 700 characters
-- Use 4-5 relevant emojis
 - Include specific details: timeframes (3-14 days), 
 - Mention one concrete search method (open search on job sites, partner recommendations)
 - No lists or bullet points
